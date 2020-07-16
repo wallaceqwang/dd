@@ -6,7 +6,7 @@ function dd_instl(){
 
 toolsMenu() {
 
-    Mainmenu=$(whiptail --clear --ok-button "确定" --backtitle "version:20200714" --title "dt服务端v2.3" --menu --nocancel "
+    Mainmenu=$(whiptail --clear --ok-button "确定" --backtitle "version:20200714" --title "ddv2.3" --menu --nocancel "
     " 22 86 5\
         "1" " 安装debian10（登录密码：dd）"\
         "5" " 退出" 3>&1 1>&2 2>&3)
