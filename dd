@@ -3,9 +3,6 @@
 function dd_instl(){
     bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/pzwsquare/dd/master/dd) -d 10 -v 64 -p 'dd' -a
 }
-function tg_pxy(){
-    
-}
 
 toolsMenu() {
 
